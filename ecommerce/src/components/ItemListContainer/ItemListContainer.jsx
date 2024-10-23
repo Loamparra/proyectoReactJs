@@ -1,7 +1,7 @@
 
 function ItemListContainer() {
   return (
-    <div>ItemListContainer</div>
+    <div>Bienvenidos a la tienda web</div>
   )
 }
 
