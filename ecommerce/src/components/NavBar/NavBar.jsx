@@ -1,5 +1,6 @@
 import CardWidget from "../CardWidget/CardWidget.jsx";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import "./NavBar.css";
 
 function NavBar({ cartCount, title}) {
   return (
@@ -22,23 +23,23 @@ function NavBar({ cartCount, title}) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link
-                className="nav-link active"
+              <NavLink
+                className={({isActive})=>isActive ? "ActiveOption" : "Option"}
                 aria-current="page"
                 to="/"
               >
                 Inicio
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/category/sport">
+              <NavLink className={({ isActive }) => isActive ? "ActiveOption" : "Option"} to="/category/sport">
                 Sport
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/category/urban">
+              <NavLink className={({ isActive }) => isActive ? "ActiveOption" : "Option"} to="/category/urban">
                 Urbanas
-              </Link>
+              </NavLink>
             </li>
           </ul>
           <form className="d-flex" role="search">

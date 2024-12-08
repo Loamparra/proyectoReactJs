@@ -1,9 +1,9 @@
 
 
-function Urban() {
+function Urbanas() {
   return (
     <div>Urban</div>
   )
 }
 
-export default Urban
+export default Urbanas

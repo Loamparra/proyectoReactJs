@@ -1,3 +1,5 @@
+import './CardWidget.css';
+
 function CardWidget ({ cartCount }) {
   return (
     <a className="nav-link" href="#">
