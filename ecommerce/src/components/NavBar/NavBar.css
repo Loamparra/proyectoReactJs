@@ -1,7 +1,7 @@
 
 
 .Option {
-    color: #b1e7ec; 
+    color: rgb(215, 212, 212); 
     text-decoration: none;
     border-radius: 5px;
     margin: 0 15px;
@@ -9,7 +9,7 @@
     width: auto;
     padding: 12px;
     font-size: 12px;
-    background: rgb(110, 197, 248);
+    background: gray;
     border-radius: 10px;
     flex: none;
     display: flex;
@@ -27,7 +27,7 @@
 }
 
 .ActiveOption {
-    color: #b1e7ec;
+    color: rgb(215, 212, 212);
     text-decoration: none;
     border-radius: 25;
     margin: 0 15px;
@@ -35,7 +35,7 @@
     width: auto;
     padding: 12px;
     font-size: 14px;
-    background: rgb(59, 182, 253);
+    background: rgb(215, 212, 212);
     border-radius: 10px;
     flex: none;
     display: flex;
